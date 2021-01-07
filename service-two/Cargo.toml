@@ -1,0 +1,12 @@
+[package]
+name = "service-two"
+version = "0.1.0"
+authors = ["Luna Graysen <luna.kx@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+rocket = { git = "https://github.com/SergioBenitez/Rocket" }
+rocket_contrib = { git = "https://github.com/SergioBenitez/Rocket" }
